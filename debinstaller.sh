@@ -58,6 +58,9 @@ if [[ $* == *-xfce* ]]; then
   sudo apt-get install xfce4
 fi
 
+# npm
+sudo apt install npm
+
 # zsh
 if [[ $* == *-zsh* ]]; then
   echo "Installing zshell..."
