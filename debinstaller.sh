@@ -51,3 +51,15 @@ se nu" >> ~/.vimrc
 # git
 echo "Installing git..."
 sudo apt install git-all
+
+# XFCE
+if [[ $* == *-xfce* ]]; then
+  echo "Installing XFCE desktop..."
+  sudo apt-get install xfce4
+fi
+
+# zsh
+if [[ $* == *-zsh* ]]; then
+  echo "Installing zshell..."
+  sudo apt install zsh
+fi
